@@ -1,0 +1,44 @@
+html, body{
+height:100%;
+margin: 0;    
+}
+
+#img_foggyStreet_background{
+    background-image: url(../images/foggyStreet.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.60;
+}
+
+#foggyStreet_background_section{
+/*   background-color: #191818; */
+    background-image: url(../images/darkCloudsAndBirds.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;    
+}
+
+h1{
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #e0e8ef;
+    font-family: cursive;
+}
+
+p{
+    line-height: 50px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: #e0e8ef;
+    font-family: cursive;
+}
+
+
+
